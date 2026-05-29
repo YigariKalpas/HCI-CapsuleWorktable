@@ -133,3 +133,19 @@ Werkzeug                                 3.1.8
 wheel                                    0.46.3
 wsproto                                  1.3.2
 yarl                                     1.24.2
+
+‘知识库说明：’
+按照所给文档1-5说明
+文档一主要内容以deepseek的信息介绍相关
+文档二涉及有关python编程语言特点相关内容
+文档三主要内容为人工智能发展简史
+文档四仅“1124是全世界小明的生日”一句话用于对特定情况下RAG与LLM区别反应的测试
+
+‘运行指南：’
+在运行前将有效api填入对应位置后通过配置好的虚拟环境启动运行后，程序会首先尝试通过embedding模型对所给文档进行拆分和向量化，若已存在对应的向量化生成文件或无文档来源将跳过这一步，通过switch-xx语句进行模式的切换或启用gradio等功能，在选定对应模型以及是否启用RAG模式后可以进行问答。
+
+‘运行效果：’
+<img width="958" height="501" alt="屏幕截图 2026-05-25 091640" src="https://github.com/user-attachments/assets/a9c719be-7845-482e-93c9-f5264ad37b56" />
+<img width="961" height="280" alt="image" src="https://github.com/user-attachments/assets/4df6f038-20ef-4b23-a5f8-02fb4f5c3722" />
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/72a3b023-32ba-470b-b602-22920b1dc3fe" />
+
