@@ -87,6 +87,7 @@ pydantic_core                            2.46.4
 pydantic-settings                        2.14.1
 pydub                                    0.25.1
 Pygments                                 2.20.0
+pypdf                                    6.12.2
 PyPika                                   0.51.1
 pyproject_hooks                          1.2.0
 pyreadline3                              3.5.6
